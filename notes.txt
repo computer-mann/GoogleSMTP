@@ -1,0 +1,6 @@
+MailRequest{
+    ToEmail
+    Subject
+    List<IFormfile> Attachments
+    Body
+}
