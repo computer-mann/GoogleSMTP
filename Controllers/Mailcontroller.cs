@@ -1,6 +1,8 @@
 
 
 using System;
+using System.IO;
+using System.Net.Mail;
 using System.Threading.Tasks;
 using Mail.Services.Interfaces;
 using Mail.ViewModels;
@@ -29,4 +31,5 @@ public class MailController : ControllerBase
         }
 
     }
+
 }
